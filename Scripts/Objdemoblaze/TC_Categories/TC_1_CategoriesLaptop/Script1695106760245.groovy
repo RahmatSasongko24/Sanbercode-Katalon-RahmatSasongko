@@ -27,3 +27,4 @@ WebUI.verifyElementText(findTestObject('ObjSpy/Categories/Monitors/lbl_ASUS Full
 
 WebUI.closeBrowser()
 
+// cek branch
