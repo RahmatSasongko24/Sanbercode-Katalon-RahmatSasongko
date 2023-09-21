@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_Categories" time="65.587" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Login_Categories" tests="4" failures="0" errors="0" time="65.587" skipped="0" timestamp="2023-09-21 14:37:45" hostname="rahma - DESKTOP-GG59V1T" id="Test Suites/TS_Login_Categories/TS_Login_Categories">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\Sanbercode-Katalon-RahmatSasongko\\Reports\\20230921_143737\\TS_Login_Categories\\TS_Login_Categories\\20230921_143737"/>
+         <property name="logFiles" value="D:\\GITHUB\\Sanbercode-Katalon-RahmatSasongko\\Reports\\20230921_143737\\TS_Login_Categories\\TS_Login_Categories\\20230921_143737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rahma - DESKTOP-GG59V1T"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 117.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="ea80d40b-e448-44e3-8c45-39e6ba99304a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Objdemoblaze/TC_Login/TC_1_Login" time="19.433" classname="Test Cases/Objdemoblaze/TC_Login/TC_1_Login" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:37:46 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Login/TC_1_Login: Test Cases/Objdemoblaze/TC_Login/TC_1_Login
+
+2023-09-21 14:37:46 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:37:47 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:37:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:37:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:37:56 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/LoginDemo/btn_Log in")): Object: 'Object Repository/ObjSpy/LoginDemo/btn_Log in' is clicked on
+
+2023-09-21 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/LoginDemo/btn_Log in' is clicked on
+
+2023-09-21 14:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("ObjSpy/LoginDemo/lbl_Username_loginusername"), GlobalUsername): Text 'adminbos' is set on object 'Object Repository/ObjSpy/LoginDemo/lbl_Username_loginusername'
+
+2023-09-21 14:38:00 - [MESSAGE][PASSED] - Text 'adminbos' is set on object 'Object Repository/ObjSpy/LoginDemo/lbl_Username_loginusername'
+
+2023-09-21 14:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("ObjSpy/LoginDemo/lbl_Password_loginpassword"), GlobalPassword): Text 'ThisIsNotAPassword' is set on object 'Object Repository/ObjSpy/LoginDemo/lbl_Password_loginpassword'
+
+2023-09-21 14:38:01 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/ObjSpy/LoginDemo/lbl_Password_loginpassword'
+
+2023-09-21 14:38:01 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/LoginDemo/btn_Log in (1)")): Object: 'Object Repository/ObjSpy/LoginDemo/btn_Log in (1)' is clicked on
+
+2023-09-21 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/LoginDemo/btn_Log in (1)' is clicked on
+
+2023-09-21 14:38:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/LoginDemo/a_Welcome adminbos"), "Welcome adminbos"): Actual text and expected text of test object 'Object Repository/ObjSpy/LoginDemo/a_Welcome adminbos' are matched.
+
+2023-09-21 14:38:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/LoginDemo/a_Welcome adminbos' are matched.
+
+2023-09-21 14:38:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:38:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesLaptop" time="14.92" classname="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesLaptop" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:38:05 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesLaptop: Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesLaptop
+
+2023-09-21 14:38:05 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:38:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:38:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:14 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Categories/lbl_Monitors")): Object: 'Object Repository/ObjSpy/Categories/lbl_Monitors' is clicked on
+
+2023-09-21 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Categories/lbl_Monitors' is clicked on
+
+2023-09-21 14:38:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Monitors/lbl_Apple monitor 24"), "Apple monitor 24"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Monitors/lbl_Apple monitor 24' are matched.
+
+2023-09-21 14:38:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Monitors/lbl_Apple monitor 24' are matched.
+
+2023-09-21 14:38:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Monitors/lbl_ASUS Full HD"), "ASUS Full HD"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Monitors/lbl_ASUS Full HD' are matched.
+
+2023-09-21 14:38:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Monitors/lbl_ASUS Full HD' are matched.
+
+2023-09-21 14:38:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:38:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesMonitors" time="15.987" classname="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesMonitors" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:38:20 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesMonitors: Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesMonitors
+
+2023-09-21 14:38:20 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:38:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:38:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:29 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Categories/lbl_Phones")): Object: 'Object Repository/ObjSpy/Categories/lbl_Phones' is clicked on
+
+2023-09-21 14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Categories/lbl_Phones' is clicked on
+
+2023-09-21 14:38:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Samsung galaxy s6"), "Samsung galaxy s6"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Samsung galaxy s6' are matched.
+
+2023-09-21 14:38:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Samsung galaxy s6' are matched.
+
+2023-09-21 14:38:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Nokia lumia 1520"), "Nokia lumia 1520"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nokia lumia 1520' are matched.
+
+2023-09-21 14:38:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nokia lumia 1520' are matched.
+
+2023-09-21 14:38:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Nexus 6"), "Nexus 6"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nexus 6' are matched.
+
+2023-09-21 14:38:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nexus 6' are matched.
+
+2023-09-21 14:38:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:38:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone" time="14.888" classname="Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:38:36 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone: Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone
+
+2023-09-21 14:38:36 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:38:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:38:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:38:45 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Categories/lbl_Phones")): Object: 'Object Repository/ObjSpy/Categories/lbl_Phones' is clicked on
+
+2023-09-21 14:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Categories/lbl_Phones' is clicked on
+
+2023-09-21 14:38:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Samsung galaxy s6"), "Samsung galaxy s6"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Samsung galaxy s6' are matched.
+
+2023-09-21 14:38:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Samsung galaxy s6' are matched.
+
+2023-09-21 14:38:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Nokia lumia 1520"), "Nokia lumia 1520"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nokia lumia 1520' are matched.
+
+2023-09-21 14:38:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nokia lumia 1520' are matched.
+
+2023-09-21 14:38:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjSpy/Categories/Phone/lbl_Nexus 6"), "Nexus 6"): Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nexus 6' are matched.
+
+2023-09-21 14:38:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjSpy/Categories/Phone/lbl_Nexus 6' are matched.
+
+2023-09-21 14:38:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:38:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-21 14:37:45 - [TEST_SUITE][PASSED] - TS_Login_Categories: Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

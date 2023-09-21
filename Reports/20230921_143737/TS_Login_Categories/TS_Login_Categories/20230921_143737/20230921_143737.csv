@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_Categories,Firefox 117.0,,,2023-09-21 14:37:45,2023-09-21 14:38:51,1m - 5.587s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Login/TC_1_Login,Firefox 117.0,,,2023-09-21 14:37:46,2023-09-21 14:38:05,19.433s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:37:46,2023-09-21 14:37:56,9.643s,PASSED
+"click(findTestObject(""ObjSpy/LoginDemo/btn_Log in""))",Firefox 117.0,,,2023-09-21 14:37:56,2023-09-21 14:37:59,3.522s,PASSED
+"setText(findTestObject(""ObjSpy/LoginDemo/lbl_Username_loginusername""), GlobalUsername)",Firefox 117.0,,,2023-09-21 14:37:59,2023-09-21 14:38:00,0.773s,PASSED
+"setText(findTestObject(""ObjSpy/LoginDemo/lbl_Password_loginpassword""), GlobalPassword)",Firefox 117.0,,,2023-09-21 14:38:00,2023-09-21 14:38:01,0.654s,PASSED
+"click(findTestObject(""ObjSpy/LoginDemo/btn_Log in (1)""))",Firefox 117.0,,,2023-09-21 14:38:01,2023-09-21 14:38:02,0.787s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/LoginDemo/a_Welcome adminbos""), ""Welcome adminbos"")",Firefox 117.0,,,2023-09-21 14:38:02,2023-09-21 14:38:04,2.454s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:38:04,2023-09-21 14:38:05,1.154s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesLaptop,Firefox 117.0,,,2023-09-21 14:38:05,2023-09-21 14:38:20,14.920s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:38:05,2023-09-21 14:38:14,8.691s,PASSED
+"click(findTestObject(""ObjSpy/Categories/lbl_Monitors""))",Firefox 117.0,,,2023-09-21 14:38:14,2023-09-21 14:38:17,3.106s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Monitors/lbl_Apple monitor 24""), ""Apple monitor 24"")",Firefox 117.0,,,2023-09-21 14:38:17,2023-09-21 14:38:18,1.205s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Monitors/lbl_ASUS Full HD""), ""ASUS Full HD"")",Firefox 117.0,,,2023-09-21 14:38:18,2023-09-21 14:38:19,0.317s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:38:19,2023-09-21 14:38:20,1.325s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesMonitors,Firefox 117.0,,,2023-09-21 14:38:20,2023-09-21 14:38:36,15.987s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:38:20,2023-09-21 14:38:29,8.139s,PASSED
+"click(findTestObject(""ObjSpy/Categories/lbl_Phones""))",Firefox 117.0,,,2023-09-21 14:38:29,2023-09-21 14:38:33,4.107s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Samsung galaxy s6""), ""Samsung galaxy s6"")",Firefox 117.0,,,2023-09-21 14:38:33,2023-09-21 14:38:34,1.412s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Nokia lumia 1520""), ""Nokia lumia 1520"")",Firefox 117.0,,,2023-09-21 14:38:34,2023-09-21 14:38:35,0.588s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Nexus 6""), ""Nexus 6"")",Firefox 117.0,,,2023-09-21 14:38:35,2023-09-21 14:38:35,0.330s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:38:35,2023-09-21 14:38:36,1.112s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Categories/TC_1_CategoriesPhone,Firefox 117.0,,,2023-09-21 14:38:36,2023-09-21 14:38:51,14.888s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:38:36,2023-09-21 14:38:45,8.742s,PASSED
+"click(findTestObject(""ObjSpy/Categories/lbl_Phones""))",Firefox 117.0,,,2023-09-21 14:38:45,2023-09-21 14:38:48,2.583s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Samsung galaxy s6""), ""Samsung galaxy s6"")",Firefox 117.0,,,2023-09-21 14:38:48,2023-09-21 14:38:49,0.991s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Nokia lumia 1520""), ""Nokia lumia 1520"")",Firefox 117.0,,,2023-09-21 14:38:49,2023-09-21 14:38:49,0.410s,PASSED
+"verifyElementText(findTestObject(""ObjSpy/Categories/Phone/lbl_Nexus 6""), ""Nexus 6"")",Firefox 117.0,,,2023-09-21 14:38:49,2023-09-21 14:38:50,0.324s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:38:50,2023-09-21 14:38:51,1.472s,PASSED

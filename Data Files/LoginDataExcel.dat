@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>962d2bc3-ff04-4d02-a6e9-508750934086</dataFileGUID>
-   <dataSourceUrl>C:\Users\rahma\Downloads\Test.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\GITHUB\Sanbercode-Katalon-RahmatSasongko\Data Files\Test.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
