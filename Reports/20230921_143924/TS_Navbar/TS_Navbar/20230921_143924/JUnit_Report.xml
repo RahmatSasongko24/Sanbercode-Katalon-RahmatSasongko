@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Navbar" time="72.215" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Navbar" tests="5" failures="0" errors="0" time="72.215" skipped="0" timestamp="2023-09-21 14:39:32" hostname="rahma - DESKTOP-GG59V1T" id="Test Suites/TS_Navbar/TS_Navbar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\GITHUB\\Sanbercode-Katalon-RahmatSasongko\\Reports\\20230921_143924\\TS_Navbar\\TS_Navbar\\20230921_143924"/>
+         <property name="logFiles" value="D:\\GITHUB\\Sanbercode-Katalon-RahmatSasongko\\Reports\\20230921_143924\\TS_Navbar\\TS_Navbar\\20230921_143924\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rahma - DESKTOP-GG59V1T"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 117.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="1f2a48b4-e862-406b-be7c-70379336d3e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_AboutUs" time="17.288" classname="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_AboutUs" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:39:32 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_AboutUs: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_AboutUs
+
+2023-09-21 14:39:33 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:39:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:39:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:39:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:39:47 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Navbar/btn_About us")): Object: 'Object Repository/ObjSpy/Navbar/btn_About us' is clicked on
+
+2023-09-21 14:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Navbar/btn_About us' is clicked on
+
+2023-09-21 14:39:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:39:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Cart" time="19.972" classname="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Cart" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:39:50 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Cart: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Cart
+
+2023-09-21 14:39:50 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:39:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:39:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:40:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:05 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Navbar/btn_Cart")): Object: 'Object Repository/ObjSpy/Navbar/btn_Cart' is clicked on
+
+2023-09-21 14:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Navbar/btn_Cart' is clicked on
+
+2023-09-21 14:40:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:40:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Contact" time="16.384" classname="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Contact" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:40:10 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Contact: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Contact
+
+2023-09-21 14:40:10 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:40:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:40:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:20 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Navbar/btn_Contact")): Object: 'Object Repository/ObjSpy/Navbar/btn_Contact' is clicked on
+
+2023-09-21 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Navbar/btn_Contact' is clicked on
+
+2023-09-21 14:40:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:40:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Home" time="8.796" classname="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Home" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:40:26 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Home: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Home
+
+2023-09-21 14:40:26 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:40:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:40:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:32 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Navbar/btn_Home (current)")): Object: 'Object Repository/ObjSpy/Navbar/btn_Home (current)' is clicked on
+
+2023-09-21 14:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Navbar/btn_Home (current)' is clicked on
+
+2023-09-21 14:40:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:40:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp" time="9.399" classname="Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp" status="PASSED">
+         <system-out><![CDATA[2023-09-21 14:40:35 - [TEST_CASE][PASSED] - Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp
+
+2023-09-21 14:40:35 - [TEST_STEP][PASSED] - openBrowser(LinkURL): Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-21 14:40:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 14:40:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoblaze.com/'
+
+2023-09-21 14:40:41 - [TEST_STEP][PASSED] - click(findTestObject("ObjSpy/Navbar/btn_Sign up")): Object: 'Object Repository/ObjSpy/Navbar/btn_Sign up' is clicked on
+
+2023-09-21 14:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ObjSpy/Navbar/btn_Sign up' is clicked on
+
+2023-09-21 14:40:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-21 14:40:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-21 14:39:32 - [TEST_SUITE][PASSED] - TS_Navbar: Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

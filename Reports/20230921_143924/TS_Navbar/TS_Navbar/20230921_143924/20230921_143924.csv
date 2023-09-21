@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Navbar,Firefox 117.0,,,2023-09-21 14:39:32,2023-09-21 14:40:44,1m - 12.215s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_AboutUs,Firefox 117.0,,,2023-09-21 14:39:32,2023-09-21 14:39:50,17.288s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:39:33,2023-09-21 14:39:47,14.400s,PASSED
+"click(findTestObject(""ObjSpy/Navbar/btn_About us""))",Firefox 117.0,,,2023-09-21 14:39:47,2023-09-21 14:39:48,1.268s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:39:48,2023-09-21 14:39:50,1.212s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Cart,Firefox 117.0,,,2023-09-21 14:39:50,2023-09-21 14:40:10,19.972s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:39:50,2023-09-21 14:40:05,14.875s,PASSED
+"click(findTestObject(""ObjSpy/Navbar/btn_Cart""))",Firefox 117.0,,,2023-09-21 14:40:05,2023-09-21 14:40:08,3.235s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:40:08,2023-09-21 14:40:10,1.199s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Contact,Firefox 117.0,,,2023-09-21 14:40:10,2023-09-21 14:40:26,16.384s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:40:10,2023-09-21 14:40:20,9.891s,PASSED
+"click(findTestObject(""ObjSpy/Navbar/btn_Contact""))",Firefox 117.0,,,2023-09-21 14:40:20,2023-09-21 14:40:23,3.623s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:40:23,2023-09-21 14:40:26,2.593s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_Home,Firefox 117.0,,,2023-09-21 14:40:26,2023-09-21 14:40:35,8.796s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:40:26,2023-09-21 14:40:32,5.584s,PASSED
+"click(findTestObject(""ObjSpy/Navbar/btn_Home (current)""))",Firefox 117.0,,,2023-09-21 14:40:32,2023-09-21 14:40:34,1.668s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:40:34,2023-09-21 14:40:35,1.208s,PASSED
+,,,,,,,
+Test Cases/Objdemoblaze/TC_Navbar/TC_1_Navbar_SignUp,Firefox 117.0,,,2023-09-21 14:40:35,2023-09-21 14:40:44,9.399s,PASSED
+openBrowser(LinkURL),Firefox 117.0,,,2023-09-21 14:40:35,2023-09-21 14:40:41,5.846s,PASSED
+"click(findTestObject(""ObjSpy/Navbar/btn_Sign up""))",Firefox 117.0,,,2023-09-21 14:40:41,2023-09-21 14:40:43,2.111s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-21 14:40:43,2023-09-21 14:40:44,1.174s,PASSED
